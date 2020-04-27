@@ -6,6 +6,10 @@ class Song
     @title = title
   end
 
+  def add_song
+    @@all << self
+  end
+
   def self.all
     @@all
   end

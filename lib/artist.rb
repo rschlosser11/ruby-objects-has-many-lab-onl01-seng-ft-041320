@@ -6,6 +6,6 @@ class Artist
   end
 
   def songs
-    Song.all.map {|song| song.name = self}
+    Song.all.map {|song| song.title = self}
   end
 end
